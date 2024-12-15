@@ -10,14 +10,12 @@ int main() {
    
     printf("Bem-vindo ao Sistema de Diagnóstico Automotivo OBD-II!\n");
 
-    // Inicia o diagnóstico do veículo
     start_diagnostic();
 
-    // Monitora os parâmetros do veículo
     printf("\nMonitorando parâmetros do veículo...\n");
     monitor_vehicle_parameters();
 
-    // Exemplo de uso de função utilitária
+
     char hex_code[] = "1A";
     int decimal_value = hex_to_decimal(hex_code);
 
